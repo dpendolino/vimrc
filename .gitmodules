@@ -1,0 +1,15 @@
+[submodule "sources_custom/molokai"]
+	path = sources_custom/molokai
+	url = git@github.com:tomasr/molokai.git
+[submodule "sources_custom/rainbow_parentheses.vim"]
+	path = sources_custom/rainbow_parentheses.vim
+	url = git@github.com:kien/rainbow_parentheses.vim.git
+[submodule "sources_custom/gundo.vim"]
+	path = sources_custom/gundo.vim
+	url = git@github.com:sjl/gundo.vim.git
+[submodule "sources_custom/supertab"]
+	path = sources_custom/supertab
+	url = git@github.com:ervandew/supertab.git
+[submodule "sources_custom/tagbar"]
+	path = sources_custom/tagbar
+	url = git@github.com:majutsushi/tagbar.git
