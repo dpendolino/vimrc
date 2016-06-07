@@ -13,3 +13,6 @@
 [submodule "sources_custom/tagbar"]
 	path = sources_custom/tagbar
 	url = git@github.com:majutsushi/tagbar.git
+[submodule "sources_custom/detectindent"]
+	path = sources_custom/detectindent
+	url = git@github.com:ciaranm/detectindent.git

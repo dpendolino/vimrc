@@ -64,3 +64,12 @@ let g:syntastic_check_on_wq = 0
 
 let g:syntastic_python_checkers = ['python2']
 let g:syntastic_python_python_exec = '/usr/bin/python2'
+
+"detectindent
+:autocmd BufReadPost * :DetectIndent 
+
+"To prefer 'expandtab' to 'noexpandtab' when no detection is possible: 
+:let g:detectindent_preferred_expandtab = 1 
+
+"To specify a preferred indent level when no detection is possible: 
+:let g:detectindent_preferred_indent = 4 
