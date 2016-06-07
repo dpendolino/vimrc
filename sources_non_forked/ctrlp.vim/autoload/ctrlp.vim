@@ -1754,7 +1754,7 @@ fu! ctrlp#syntax()
 	en
 	sy match CtrlPNoEntries '^ == NO ENTRIES ==$'
 	if hlexists('CtrlPLinePre')
-		sy match CtrlPLinePre '^>'
+		exe "sy match CtrlPLinePre '^".escape(get(g:, 'ctrlp_line_prefix', '>'),'^$.*~\')."'"
 	en
 
 	if s:itemtype == 1 && s:has_conceal
@@ -1941,7 +1941,7 @@ fu! s:isabs(path)
 endf
 
 fu! s:bufnrfilpath(line)
-	if s:isabs(a:line) || a:line =~ '^\~[/\\]'
+	if s:isabs(a:line) || a:line =~ '^\~[/\\]' || a:line =~ '^\w\+:\/\/'
 		let filpath = a:line
 	el
 		let filpath = s:dyncwd.s:lash().a:line
