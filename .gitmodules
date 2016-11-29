@@ -22,3 +22,12 @@
 	path = sources_custom/detectindent
 	url = git@github.com:ciaranm/detectindent.git
 	ignore = dirty
+[submodule "sources_custom/vim-markdown-preview"]
+	path = sources_custom/vim-markdown-preview
+	url = https://github.com/JamshedVesuna/vim-markdown-preview
+[submodule "sources_custom/vim-markdown"]
+	path = sources_custom/vim-markdown
+	url = https://github.com/tpope/vim-markdown
+[submodule "sources_custom/vim-ps1"]
+	path = sources_custom/vim-ps1
+	url = git@github.com:PProvost/vim-ps1.git

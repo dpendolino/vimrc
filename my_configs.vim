@@ -73,3 +73,7 @@ let g:syntastic_python_python_exec = '/usr/bin/python2'
 
 "To specify a preferred indent level when no detection is possible: 
 :let g:detectindent_preferred_indent = 4 
+
+"git@github.com:PProvost/vim-ps1.git
+let vim_markdown_preview_github=1
+let vim_markdown_preview_use_xdg_open=1
